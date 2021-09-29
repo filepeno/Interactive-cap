@@ -1,0 +1,18 @@
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.g_to_interact {
+  opacity: 100%;
+  fill: white;
+}
+
+g#shadow {
+  pointer-events: none;
+}
+
+.g_to_interact:hover {
+  stroke: rgb(83, 83, 83);
+  stroke-width: 5px;
+}
